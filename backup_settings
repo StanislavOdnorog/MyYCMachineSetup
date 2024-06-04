@@ -1,0 +1,4 @@
+rpm -qa > ./files/installed-software.log
+sudo cp ~/.bash_profile ./files/user_bash_profile
+sudo cat /root/.bash_profile > ./files/root_bash_profile
+sudo cp -r ~/.config/nvim/ ./files/nvim_configuration
